@@ -52,3 +52,4 @@ for (i, c) in enumerate(cnts):# we are iterating through our contours
  mask = mask[y:y + h, x:x + w]
  cv2.imshow("Masked Coin", cv2.bitwise_and(coin, coin, mask = mask)) # finally applying the AND operation on coins using mask
  cv2.waitKey(0)
+ #Hello man what's u
